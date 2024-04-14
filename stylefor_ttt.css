@@ -54,13 +54,35 @@ body {
     max-height: 5rem;
     border-radius: 10px;
     border: none;
-    font-size: 3.5vw;
+    font-size: 4vw;
     /* Adjusted font-size for responsiveness */
     background-color: rgb(207, 250, 237);
     color: brown;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media screen and (max-width: 800px) {
+    .box {
+    font-size: 6.5vw;
+    }
+    /* CSS rules for screens smaller than or equal to 600px */
+}
+@media screen and (max-width: 600px) {
+    .box {
+    font-size: 8.5vw;
+    }
+    /* CSS rules for screens smaller than or equal to 600px */
+}@media screen and (max-width: 450px) {
+    .box {
+    font-size: 9.5vw;
+    }
+    /* CSS rules for screens smaller than or equal to 600px */
+}@media screen and (max-width: 380px) {
+    .box {
+    font-size: 10vw;
+    }
+    /* CSS rules for screens smaller than or equal to 600px */
 }
 
 .btnstyle {
@@ -94,7 +116,7 @@ p {
 #image {
     width: 1.5rem;
 }
-
+/* Button */
 .button-92 {
     margin: 4vw 0;
     --c: #fff;
